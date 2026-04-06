@@ -1,0 +1,30 @@
+paths:
+  checkout_path: checkout_sessions-8.csv
+  payment_links_path: payment_links-2.csv
+  payments_path: unified_payments-16.csv
+
+model:
+  random_state: 42
+  test_size: 0.25
+
+business_rules:
+  valid_outward_postcodes:
+    - BR1
+    - BR2
+    - BR3
+    - CRO
+    - CR7
+    - SE4
+    - SE6
+    - SE13
+    - SE15
+    - SE19
+    - SE20
+    - SE21
+    - SE22
+    - SE23
+    - SE24
+    - SE25
+    - SE26
+    - SW2
+    - SW18
